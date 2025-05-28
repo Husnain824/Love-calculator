@@ -16,9 +16,7 @@
 
         var randomNumber = Math.floor(Math.random()*100);
 
-        if(userName === 'Husnain' && loverName === 'Sania') {
-            $("h1").text( lineOfCode + "💗love's💗 score is 100%, don't miss it," + " your love is like butter and cheese");
-        } else if(userName === 'Kashif' && loverName === 'Kiran' || userName === 'Kiran' && loverName === 'Kashif') {
+        if(userName === 'Husnain' && loverName === 'Sania' || userName === 'Sania' && loverName === 'Husnain' || userName === 'Kashif' && loverName === 'Kiran' || userName === 'Kiran' && loverName === 'Kashif') {
             $("h1").text( lineOfCode + "💗love's💗 score is 100%, don't miss it," + " your love is like butter and cheese");
         } else if(randomNumber <= 30) {
             $("h1").text( lineOfCode + "💗love's💗 score is " + randomNumber + "%, your love is like oil and water");
