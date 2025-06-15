@@ -172,5 +172,6 @@ button{
   h1{
     margin: 0;
     padding: 3px 0 40px 0 ;
+    font-size: 40px;
   }
 }
