@@ -115,7 +115,7 @@ button{
 
 @media(max-width: 600px){
   p{
-    font-size: 2rem;
+    font-size: 1rem;
     position: relative;
     left: 1rem;
     top: -20px;
